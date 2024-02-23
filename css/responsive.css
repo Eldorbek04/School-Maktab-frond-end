@@ -1,0 +1,527 @@
+/* Desktop */
+@media (max-width:1440px) {}
+
+@media (max-width:1320px) {}
+
+@media (max-width:1290px) {}
+
+@media (max-width:1170px) {}
+
+@media (max-width:1140px) {}
+
+@media (max-width:1024px) {}
+
+@media (max-width:992px) {}
+
+@media (max-width:850px) {}
+
+/* Tab */
+@media (max-width:768px) {}
+
+@media (max-width:736px) {}
+
+@media (max-width:734px) {}
+
+@media (max-width:684px) {}
+
+@media (max-width:667px) {}
+
+/* Mobile */
+@media (max-width:576px) {
+    .mainMenuBox {
+        display: none !important;
+    }
+}
+
+@media (max-width:480px) {
+
+    .mainMenuBox {
+        display: none !important;
+    }
+
+    .title::after {
+        content: unset !important;
+    }
+}
+
+@media (max-width:412px) {
+
+    .it_live-img {
+        width: 35% !important;
+    }
+
+    .overlay ul li {
+        margin: 0;
+    }
+
+    .topMainMenu2 ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 44px;
+        justify-content: center;
+        color: #fff;
+        row-gap: 15px;
+    }
+
+    .listMenu {
+        display: block;
+    }
+
+    .listMenu li {
+        width: 100px;
+    }
+
+    .listMenu .simple {
+        flex-direction: unset;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .overlay_li-social {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .mainMenuBox {
+        display: none !important;
+    }
+
+    .title::after {
+        content: unset !important;
+    }
+
+    .topMain-logo {
+        position: absolute;
+        top: 8%;
+        right: 35%;
+        color: black;
+    }
+
+    .topMain-logo img {
+        width: 23%;
+    }
+
+    .topMain-logo p {
+        font-size: 15px;
+    }
+
+    .headerMenuBox .borderedBtn {
+        width: 54px;
+        height: 54px;
+        position: absolute;
+        left: -27px;
+        top: -13px;
+    }
+
+    .additionalFuntions {
+        position: absolute;
+        top: 12%;
+        right: 3%;
+    }
+
+    .additionalFuntions a {
+        color: black !important;
+    }
+
+    .additionalFuntions a i {
+        color: black !important;
+    }
+
+    .topMainMenu {
+        padding: 13px 0;
+    }
+
+    .topMainMenu li a {
+        font-size: 6px;
+    }
+
+
+    .logoTextBox__title {
+        margin-top: 5%;
+        font-size: 19px;
+    }
+
+    .quote {
+        padding-top: 44px;
+    }
+
+    .school_info {
+        margin-left: 95px;
+    }
+
+    .onlineSchool__info {
+        text-align: center;
+        padding-left: 26px;
+    }
+
+    .onlineSchool__info h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .onlineSchool__info p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .onlineSchool__img img {
+        text-align: center;
+        width: 56%;
+        margin-top: 15%;
+    }
+
+    .contact_row1 {
+        margin-left: 14px;
+    }
+
+    .contact_row2 {
+        margin-left: 14px;
+    }
+
+    .contact_row3 {
+        margin-left: 14px;
+    }
+
+    .contact_row3 input {
+        width: 92%;
+    }
+
+    .contact__title {
+        text-align: center;
+        margin: 10% 0;
+    }
+
+    .slick-prev,
+    .slick-next {
+        display: none !important;
+    }
+
+    .slider_content h1 {
+        font-size: 12px;
+    }
+
+    .footer_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 24px;
+    }
+
+    .footer_menu li {
+        border: none;
+    }
+
+    .footer .footer_contact-left a {
+        font-size: 11px;
+    }
+
+    .footer .footer_contact-left a span {
+        margin-left: 0;
+    }
+
+    .footer_contact-left {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .footer .footer_contact-right a {
+        font-size: 11px;
+    }
+
+    .footer .footer_contact-right a span {
+        margin-left: 0;
+    }
+
+    .footer .footer_contact-right a i {
+        font-size: 20px;
+        width: 35px;
+        text-align: center;
+    }
+
+    .footer .footer_contact-left a i {
+        font-size: 20px;
+        width: 35px;
+        text-align: center;
+    }
+
+    .footer_contact-right {
+        margin-right: 22px;
+        margin-top: 0;
+    }
+
+    .footer_logo a {
+        margin-top: 8%;
+        font-size: 16px;
+    }
+
+    .footer_logo {
+        margin-top: 90px;
+    }
+
+
+}
+
+@media (max-width:375px) {
+
+ 
+    .it_live-img {
+        width: 35% !important;
+    }
+
+    .listMenu>ul {
+        column-gap: 20px;
+        margin: 66px 0;
+        padding-left: 21px;
+    }
+    .overlay ul{
+        padding-top: 21px;
+    }
+    .topMainMenu2 ul li a {
+        font-size: 12px;
+    }
+
+    .topMainMenu2 ul {
+        flex-direction: column;
+    }
+
+    .listMenu {
+        display: block;
+    }
+
+    .overlay ul li {
+        margin: 0;
+    }
+
+    .listMenu li {
+        width: 100px;
+    }
+
+    .listMenu .simple {
+        flex-direction: unset;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .overlay_li-social {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+
+
+    .bottomMainMenu,
+    .menuLine {
+        display: none !important;
+    }
+
+    .bigBannerContent {
+        height: 550px;
+    }
+
+    .logoTextBox {
+        height: 550px;
+    }
+
+    .mainServicesList {
+        margin-top: 90px;
+        margin-bottom: 40px;
+    }
+
+    .title::after {
+        content: unset !important;
+    }
+
+    .topMain-logo {
+        position: absolute;
+        top: 8%;
+        right: 35%;
+        color: black;
+    }
+
+    .topMain-logo img {
+        width: 23%;
+    }
+
+    .topMain-logo p {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    .headerMenuBox .borderedBtn {
+        width: 54px;
+        height: 54px;
+        position: absolute;
+        left: -27px;
+        top: -13px;
+    }
+
+    .additionalFuntions {
+        position: absolute;
+        top: 15%;
+        right: 3%;
+    }
+
+    .additionalFuntions a {
+        color: black !important;
+    }
+
+    .additionalFuntions a i {
+        color: black !important;
+    }
+
+    .topMainMenu {
+        padding: 13px 0;
+    }
+
+    .topMainMenu li a {
+        font-size: 6px;
+    }
+
+
+    .logoTextBox__title {
+        margin-top: 5%;
+        font-size: 19px;
+    }
+
+    .quote {
+        padding-top: 44px;
+    }
+
+    .school_info {
+        margin-left: 75px;
+    }
+
+    .onlineSchool__info {
+        text-align: center;
+    }
+
+    .onlineSchool {
+        padding-top: 0;
+    }
+
+    .onlineSchool__info h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .onlineSchool__info p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .onlineSchool__img img {
+        text-align: center;
+        width: 56%;
+        margin-top: 15%;
+    }
+
+    .contact_row3 input {
+        width: 97%;
+    }
+
+    .contact_row1 {
+        margin-left: 0px;
+    }
+
+    .contact_row2 {
+        margin-left: 0px;
+    }
+
+    .contact_row3 {
+        margin-left: 0px;
+    }
+
+    .contact__title {
+        text-align: center;
+        margin: 10% 0;
+    }
+
+    .slick-prev,
+    .slick-next {
+        display: none !important;
+    }
+
+    .slider_content h1 {
+        font-size: 12px;
+    }
+
+    .footer_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 24px;
+    }
+
+    .footer_menu li {
+        border: none;
+    }
+
+    .footer .footer_contact-left a {
+        font-size: 11px;
+    }
+
+    .footer .footer_contact-left a span {
+        margin-left: 0;
+    }
+
+    .footer_contact-left {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .footer .footer_contact-right a {
+        font-size: 11px;
+    }
+
+    .footer .footer_contact-right a span {
+        margin-left: 0;
+    }
+
+    .footer .footer_contact-right a i {
+        font-size: 20px;
+        width: 35px;
+        text-align: center;
+    }
+
+    .footer .footer_contact-left a i {
+        font-size: 20px;
+        width: 35px;
+        text-align: center;
+    }
+
+    .footer_contact-right {
+        margin-right: 22px;
+        margin-top: 0;
+    }
+
+    .footer_logo a {
+        margin-top: 8%;
+        font-size: 16px;
+    }
+
+    .footer_logo {
+        margin-top: 90px;
+    }
+
+    .it_live-img {
+        width: 28%;
+    }
+
+}
+
+@media (max-width:360px) {
+    .contact_row3 {
+        margin-left: -11px
+    }
+
+    .contact_row3 input {
+        width: 100%;
+    }
+}
+
+@media (max-width:320px) {}
